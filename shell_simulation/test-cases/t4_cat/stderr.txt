@@ -1,0 +1,53 @@
+==51334== Memcheck, a memory error detector
+==51334== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==51334== Using Valgrind-3.9.0 and LibVEX; rerun with -h for copyright info
+==51334== Command: /home/a295g044/EECS_678/Project1/quash/quash
+==51334== 
+==51429== 
+==51429== HEAP SUMMARY:
+==51429==     in use at exit: 72 bytes in 2 blocks
+==51429==   total heap usage: 9 allocs, 7 frees, 17,878 bytes allocated
+==51429== 
+==51429== LEAK SUMMARY:
+==51429==    definitely lost: 0 bytes in 0 blocks
+==51429==    indirectly lost: 0 bytes in 0 blocks
+==51429==      possibly lost: 0 bytes in 0 blocks
+==51429==    still reachable: 72 bytes in 2 blocks
+==51429==         suppressed: 0 bytes in 0 blocks
+==51429== Reachable blocks (those to which a pointer was found) are not shown.
+==51429== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==51429== 
+==51429== For counts of detected and suppressed errors, rerun with: -v
+==51429== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 2 from 2)
+==51502== 
+==51502== HEAP SUMMARY:
+==51502==     in use at exit: 72 bytes in 2 blocks
+==51502==   total heap usage: 17 allocs, 15 frees, 19,980 bytes allocated
+==51502== 
+==51502== LEAK SUMMARY:
+==51502==    definitely lost: 0 bytes in 0 blocks
+==51502==    indirectly lost: 0 bytes in 0 blocks
+==51502==      possibly lost: 0 bytes in 0 blocks
+==51502==    still reachable: 72 bytes in 2 blocks
+==51502==         suppressed: 0 bytes in 0 blocks
+==51502== Reachable blocks (those to which a pointer was found) are not shown.
+==51502== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==51502== 
+==51502== For counts of detected and suppressed errors, rerun with: -v
+==51502== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 2 from 2)
+==51334== 
+==51334== HEAP SUMMARY:
+==51334==     in use at exit: 64 bytes in 1 blocks
+==51334==   total heap usage: 44 allocs, 43 frees, 27,404 bytes allocated
+==51334== 
+==51334== LEAK SUMMARY:
+==51334==    definitely lost: 0 bytes in 0 blocks
+==51334==    indirectly lost: 0 bytes in 0 blocks
+==51334==      possibly lost: 0 bytes in 0 blocks
+==51334==    still reachable: 64 bytes in 1 blocks
+==51334==         suppressed: 0 bytes in 0 blocks
+==51334== Reachable blocks (those to which a pointer was found) are not shown.
+==51334== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==51334== 
+==51334== For counts of detected and suppressed errors, rerun with: -v
+==51334== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 2 from 2)
